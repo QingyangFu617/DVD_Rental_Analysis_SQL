@@ -3,7 +3,7 @@ Here are the detail of the project, as well as the database I used in this proje
 
 https://www.postgresqltutorial.com/postgresql-sample-database/
 
-```
+～～～sql
 WITH sub AS
 	(SELECT c.name AS cate_name, r.rental_id AS rental_id
 		FROM category c
@@ -21,4 +21,4 @@ SELECT cate_name, COUNT(*)
 FROM sub
 GROUP BY 1
 ORDER BY 2 DESC;
-```
+~~~
