@@ -57,7 +57,7 @@ Animation has 22 rent that falls into Duration Level 1, which is the greatest co
 To maximize the profit, we should increase the number of Animation, Comedy, and children types, since most of the film has level 1 and level 2 rental duration. And slightly reduce Family and Classic type. 
 
 
-**#Question 3 What is the number of rent-out in different stores?**
+**Question 3 What is the number of rent-out in different stores?**
 ~~~~sql
 SELECT s.store_id,
 		DATE_PART('month',r.rental_date) AS month, DATE_PART('year',r.rental_date) AS year,
