@@ -22,3 +22,6 @@ FROM sub
 GROUP BY 1
 ORDER BY 2 DESC;
 ~~~~
+
+<img width="324" alt="image" src="https://user-images.githubusercontent.com/100692852/156179903-bba34484-2a00-47f1-8af1-c8671688f7c7.png">
+
