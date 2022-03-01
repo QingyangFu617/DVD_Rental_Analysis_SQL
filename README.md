@@ -98,6 +98,9 @@ GROUP BY  1,2
 ORDER BY 2,1;
 ~~~~
 
+<img width="358" alt="image" src="https://user-images.githubusercontent.com/100692852/156181950-09c0f333-4e1a-47ee-97df-bec5880b3bef.png">
+
+
 The two graphs show the payment amount trend and the number of orders per month.
 The top 10 customer shows a similar trend in both graphs, which increases in the first two months and peaks in April 2007. After that, both the payment amount and the number of orders decrease sharply to nearly 0.  
  We only have the date of May 2007 for four customers among the top 10. Other data are not available. This may be because the data was collected at the beginning of May when many consumers had not yet made their orders.
