@@ -92,7 +92,7 @@ There might be a periodical trend in film rent-out. The rental count reaches the
 
 
 
-**Question 4: What is the trend of payment amount and number of orders in top 10 customers? And Why?**
+**Question 4: What is the trend of payment amount and number of orders for top 10 customers? And Why?**
 ~~~~sql
 SELECT DATE_TRUNC('month', p.payment_date) pay_mon, c.first_name || ' '|| c.last_name AS fullname, COUNT(*), SUM(p.amount)
 FROM payment p
