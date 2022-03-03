@@ -3,6 +3,10 @@ Here are the detail of the project, as well as the database I used in this proje
 
 https://www.postgresqltutorial.com/postgresql-sample-database/
 
+![image](https://user-images.githubusercontent.com/100692852/156506498-3fc599c0-becb-4e9a-b576-810f2c8d5612.png)
+
+
+
 
 **Q1:What is the total number of rent-out per category?**
 
@@ -32,6 +36,9 @@ In this graph, the rent-out data are collected. A total of 350 films are collect
 So we can conclude that animation and family movies are the most popular and music movies are very sluggish in terms of rentals.
 
 
+
+
+
 **Q2 How can stores maximize their profit by arranging the type of movies?**
 ~~~~sql
 WITH sub2 AS (SELECT category_name, NTILE(4) OVER (ORDER BY rental_duration) AS quartile
@@ -57,6 +64,9 @@ Animation has 22 rent that falls into Duration Level 1, which is the greatest co
 To maximize the profit, we should increase the number of Animation, Comedy, and children types, since most of the film has level 1 and level 2 rental duration. And slightly reduce Family and Classic type. 
 
 
+
+
+
 **Question 3 What is the number of rent-out in different stores?**
 ~~~~sql
 SELECT s.store_id,
@@ -76,6 +86,10 @@ ORDER BY 4 DESC;
 
 This graph collected data for the number of films rent-out in different stores per month. The rental count increases slightly from May to June 2005 in both stores and then increases dramatically to around 3200 in July. After the peak, the rent-out number decreased sharply to nearly 100 in February 2006.
 There might be a periodical trend in film rent-out. The rental count reaches the peak in the summer; this is probably because kids are on summer vacation and movie rentals are way up.
+
+
+
+
 
 
 **Question 4: What is the trend of payment amount and number of orders in top 10 customers? And Why?**
