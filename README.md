@@ -112,7 +112,8 @@ GROUP BY  1,2
 ORDER BY 2,1;
 ~~~~
 
-<img width="358" alt="image" src="https://user-images.githubusercontent.com/100692852/156181950-09c0f333-4e1a-47ee-97df-bec5880b3bef.png">
+<img width="606" alt="image" src="https://user-images.githubusercontent.com/100692852/156507327-8bc7f327-1208-4e4d-9e00-eb8f0a7a28b3.png">
+<img width="595" alt="image" src="https://user-images.githubusercontent.com/100692852/156507340-f1f19cd2-3f5a-49f8-ab08-d7dbdb4b3cf2.png">
 
 
 The two graphs show the payment amount trend and the number of orders per month.
