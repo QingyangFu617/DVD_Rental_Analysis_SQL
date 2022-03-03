@@ -36,7 +36,7 @@ In this graph, the rent-out data are collected. A total of 350 films are collect
 So we can conclude that animation and family movies are the most popular and music movies are very sluggish in terms of rentals.
 
 
-
+***
 
 
 **Q2 How can stores maximize their profit by arranging the type of movies?**
@@ -64,7 +64,7 @@ Animation has 22 rent that falls into Duration Level 1, which is the greatest co
 To maximize the profit, we should increase the number of Animation, Comedy, and children types, since most of the film has level 1 and level 2 rental duration. And slightly reduce Family and Classic type. 
 
 
-
+***
 
 
 **Question 3 What is the number of rent-out in different stores?**
@@ -89,7 +89,7 @@ There might be a periodical trend in film rent-out. The rental count reaches the
 
 
 
-
+***
 
 
 **Question 4: What is the trend of payment amount and number of orders for top 10 customers? And Why?**
