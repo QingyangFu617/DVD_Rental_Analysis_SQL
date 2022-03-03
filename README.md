@@ -30,8 +30,7 @@ GROUP BY 1
 ORDER BY 2 DESC;
 ~~~~
 
-<img width="324" alt="image" src="https://user-images.githubusercontent.com/100692852/156179903-bba34484-2a00-47f1-8af1-c8671688f7c7.png">
-
+<img width="424" alt="image" src="https://user-images.githubusercontent.com/100692852/156507544-9f89b2dc-59f4-4121-a5e3-52f3695e3b61.png">
 In this graph, the rent-out data are collected. A total of 350 films are collected by category. Animation (1166) and Family (1096) film rentals are the highest, followed by Children (945), classics (939), and Comedy (941). Music (830) films are the lowest among others.
 So we can conclude that animation and family movies are the most popular and music movies are very sluggish in terms of rentals.
 
