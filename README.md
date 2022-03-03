@@ -72,7 +72,7 @@ GROUP BY 1,2,3
 ORDER BY 4 DESC;
 ~~~~
 
-![image](https://user-images.githubusercontent.com/100692852/156180472-c4430967-0f9e-4669-b88a-33fd94eb2418.png)
+<img width="411" alt="image" src="https://user-images.githubusercontent.com/100692852/156506372-5b275033-58d0-4de0-9d8b-1c38f7840bb8.png">
 
 This graph collected data for the number of films rent-out in different stores per month. The rental count increases slightly from May to June 2005 in both stores and then increases dramatically to around 3200 in July. After the peak, the rent-out number decreased sharply to nearly 100 in February 2006.
 There might be a periodical trend in film rent-out. The rental count reaches the peak in the summer; this is probably because kids are on summer vacation and movie rentals are way up.
