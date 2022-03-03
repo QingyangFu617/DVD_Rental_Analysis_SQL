@@ -6,7 +6,7 @@ https://www.postgresqltutorial.com/postgresql-sample-database/
 ![image](https://user-images.githubusercontent.com/100692852/156506498-3fc599c0-becb-4e9a-b576-810f2c8d5612.png)
 
 
-
+***
 
 **Q1:What is the total number of rent-out per category?**
 
