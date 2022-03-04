@@ -30,7 +30,7 @@ GROUP BY 1
 ORDER BY 2 DESC;
 ~~~~
 
-<img width="424" alt="image" src="https://user-images.githubusercontent.com/100692852/156507544-9f89b2dc-59f4-4121-a5e3-52f3695e3b61.png">	
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/100692852/156507544-9f89b2dc-59f4-4121-a5e3-52f3695e3b61.png">	
 
 
 
