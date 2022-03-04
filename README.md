@@ -54,6 +54,8 @@ There are 15 tables in the DVD Rental database:
 
 **country** – stores country names.
 
+***
+
 ![image](https://user-images.githubusercontent.com/100692852/156506498-3fc599c0-becb-4e9a-b576-810f2c8d5612.png)
 
 
