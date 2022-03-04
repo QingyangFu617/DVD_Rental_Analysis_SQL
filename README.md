@@ -56,7 +56,7 @@ FROM sub2
 GROUP BY 1,2
 ORDER BY 1,2;
 ~~~~
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/100692852/156180317-5df4bd69-dddb-48c4-87ec-be8b8a8d3f64.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/100692852/156180317-5df4bd69-dddb-48c4-87ec-be8b8a8d3f64.png">
 
 In this graph, all the films are equally divided into four levels based on their rental duration, and each table represents a different type of film. 
 Animation has 22 rent that falls into Duration Level 1, which is the greatest compared to other film types. For Comedy, most of the film's rental duration is in Level 1. Similarly, there are 20 Family films in Duration Level 3. And for children's movies, 18 films are in Level 2.
