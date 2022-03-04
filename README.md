@@ -68,7 +68,7 @@ To maximize the profit, we should increase the number of Animation, Comedy, and 
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/100692852/156774736-e2e342d3-f59b-415e-a61a-2a6697140fc0.png">
 
-This is an alternative visualization of this question that can better compare the four quartiles among different types of movies.   
+This nested pie chart is an alternative visualization of question 2 that can directly compare the four quartiles among different types of movies. This chart indicates the quartile percentage in different kinds of film, which provides a more accurate number for arranging the movie stock.
 
 ***
 
