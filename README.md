@@ -14,9 +14,9 @@ The DVD rental database represents the business processes of a DVD rental store.
 
 There are 15 tables in the DVD Rental database:
 
-actor – stores actors data including first name and last name.
-film – stores film data such as title, release year, length, rating, etc.
-film_actor – stores the relationships between films and actors.
+#actor – stores actors data including first name and last name.
+#film – stores film data such as title, release year, length, rating, etc.
+#film_actor – stores the relationships between films and actors.
 category – stores film’s categories data.
 film_category- stores the relationships between films and categories.
 store – contains the store data including manager staff and address.
