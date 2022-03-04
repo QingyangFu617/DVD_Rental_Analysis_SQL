@@ -88,7 +88,7 @@ GROUP BY 1,2,3
 ORDER BY 4 DESC;
 ~~~~
 
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/100692852/156506372-5b275033-58d0-4de0-9d8b-1c38f7840bb8.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/100692852/156506372-5b275033-58d0-4de0-9d8b-1c38f7840bb8.png">
 
 This graph collected data for the number of films rent-out in different stores per month. The rental count increases slightly from May to June 2005 in both stores and then increases dramatically to around 3200 in July. After the peak, the rent-out number decreased sharply to nearly 100 in February 2006.
 There might be a periodical trend in film rent-out. The rental count reaches the peak in the summer; this is probably because kids are on summer vacation and movie rentals are way up.
@@ -118,8 +118,8 @@ GROUP BY  1,2
 ORDER BY 2,1;
 ~~~~
 
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/100692852/156507327-8bc7f327-1208-4e4d-9e00-eb8f0a7a28b3.png">
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/100692852/156507340-f1f19cd2-3f5a-49f8-ab08-d7dbdb4b3cf2.png">
+<img width="550" alt="image" src="https://user-images.githubusercontent.com/100692852/156507327-8bc7f327-1208-4e4d-9e00-eb8f0a7a28b3.png">
+<img width="550" alt="image" src="https://user-images.githubusercontent.com/100692852/156507340-f1f19cd2-3f5a-49f8-ab08-d7dbdb4b3cf2.png">
 
 
 The two graphs show the payment amount trend and the number of orders per month.
