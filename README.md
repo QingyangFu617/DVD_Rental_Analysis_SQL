@@ -6,29 +6,53 @@ https://www.postgresqltutorial.com/postgresql-sample-database/
 The DVD rental database represents the business processes of a DVD rental store. The DVD rental database has many objects, including:
 
 15 tables.
-1 trigger.
-7 views. 
-8 functions. 
-1 domain. 
-13 sequences. 
+
+
+1 trigger
+
+
+7 views
+
+
+8 functions
+
+
+1 domain
+
+
+13 sequences
+
+
 
 There are 15 tables in the DVD Rental database:
 
-#actor – stores actors data including first name and last name.
+actor – stores actors data including first name and last name.
 
 
-#film – stores film data such as title, release year, length, rating, etc.
-#film_actor – stores the relationships between films and actors.
+film – stores film data such as title, release year, length, rating, etc.
+
+film_actor – stores the relationships between films and actors.
+
 category – stores film’s categories data.
+
 film_category- stores the relationships between films and categories.
+
 store – contains the store data including manager staff and address.
+
 inventory – stores inventory data.
+
 rental – stores rental data.
+
 payment – stores customer’s payments.
+
 staff – stores staff data.
+
 customer – stores customer data.
+
 address – stores address data for staff and customers
+
 city – stores city names.
+
 country – stores country names.
 
 ![image](https://user-images.githubusercontent.com/100692852/156506498-3fc599c0-becb-4e9a-b576-810f2c8d5612.png)
@@ -94,9 +118,15 @@ In this graph, all the films are equally divided into four levels based on their
 Animation has 22 rent that falls into Duration Level 1, which is the greatest compared to other film types. For Comedy, most of the film's rental duration is in Level 1. Similarly, there are 20 Family films in Duration Level 3. And for children's movies, 18 films are in Level 2.
 To maximize the profit, we should increase the number of Animation, Comedy, and children types, since most of the film has level 1 and level 2 rental duration. And slightly reduce Family and Classic type.   
 
+
+
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/100692852/156774736-e2e342d3-f59b-415e-a61a-2a6697140fc0.png">
 
+
+
 This nested pie chart is an alternative visualization of question 2 that can directly compare the four quartiles among different types of movies. This chart indicates the quartile percentage in different kinds of film, which provides a more accurate number for arranging the movie stock.
+
+
 
 ***
 
@@ -116,7 +146,11 @@ GROUP BY 1,2,3
 ORDER BY 4 DESC;
 ~~~~
 
+
+
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/100692852/156506372-5b275033-58d0-4de0-9d8b-1c38f7840bb8.png">
+
+
 
 This graph collected data for the number of films rent-out in different stores per month. The rental count increases slightly from May to June 2005 in both stores and then increases dramatically to around 3200 in July. After the peak, the rent-out number decreased sharply to nearly 100 in February 2006.
 There might be a periodical trend in film rent-out. The rental count reaches the peak in the summer; this is probably because kids are on summer vacation and movie rentals are way up.
@@ -124,6 +158,7 @@ There might be a periodical trend in film rent-out. The rental count reaches the
 
 
 ***
+
 
 
 **Question 4: What is the trend of payment amount and number of orders for top 10 customers? And Why?**
@@ -148,6 +183,7 @@ ORDER BY 2,1;
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/100692852/156507327-8bc7f327-1208-4e4d-9e00-eb8f0a7a28b3.png">
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/100692852/156507340-f1f19cd2-3f5a-49f8-ab08-d7dbdb4b3cf2.png">
+
 
 
 The two graphs show the payment amount trend and the number of orders per month.
