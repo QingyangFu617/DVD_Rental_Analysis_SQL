@@ -62,7 +62,7 @@ In this graph, all the films are equally divided into four levels based on their
 Animation has 22 rent that falls into Duration Level 1, which is the greatest compared to other film types. For Comedy, most of the film's rental duration is in Level 1. Similarly, there are 20 Family films in Duration Level 3. And for children's movies, 18 films are in Level 2.
 To maximize the profit, we should increase the number of Animation, Comedy, and children types, since most of the film has level 1 and level 2 rental duration. And slightly reduce Family and Classic type. 
 
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/100692852/156774736-e2e342d3-f59b-415e-a61a-2a6697140fc0.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/100692852/156774736-e2e342d3-f59b-415e-a61a-2a6697140fc0.png">
 
 
 ***
