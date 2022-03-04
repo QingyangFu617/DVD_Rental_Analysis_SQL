@@ -22,7 +22,7 @@ The DVD rental database represents the business processes of a DVD rental store.
 
 13 sequences
 
-
+***
 
 There are 15 tables in the DVD Rental database:
 
