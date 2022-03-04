@@ -26,34 +26,33 @@ The DVD rental database represents the business processes of a DVD rental store.
 
 There are 15 tables in the DVD Rental database:
 
-actor – stores actors data including first name and last name.
+**actor** – stores actors data including first name and last name.
 
+**film** – stores film data such as title, release year, length, rating, etc.
 
-film – stores film data such as title, release year, length, rating, etc.
+**film_actor** – stores the relationships between films and actors.
 
-film_actor – stores the relationships between films and actors.
+**category** – stores film’s categories data.
 
-category – stores film’s categories data.
+**film_categor**y- stores the relationships between films and categories.
 
-film_category- stores the relationships between films and categories.
+**store** – contains the store data including manager staff and address.
 
-store – contains the store data including manager staff and address.
+**inventory** – stores inventory data.
 
-inventory – stores inventory data.
+**rental** – stores rental data.
 
-rental – stores rental data.
+**payment** – stores customer’s payments.
 
-payment – stores customer’s payments.
+**staff** – stores staff data.
 
-staff – stores staff data.
+**customer** – stores customer data.
 
-customer – stores customer data.
+**address** – stores address data for staff and customers
 
-address – stores address data for staff and customers
+**city** – stores city names.
 
-city – stores city names.
-
-country – stores country names.
+**country** – stores country names.
 
 ![image](https://user-images.githubusercontent.com/100692852/156506498-3fc599c0-becb-4e9a-b576-810f2c8d5612.png)
 
@@ -112,7 +111,10 @@ FROM sub2
 GROUP BY 1,2
 ORDER BY 1,2;
 ~~~~
+
+
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/100692852/156180317-5df4bd69-dddb-48c4-87ec-be8b8a8d3f64.png">
+
 
 In this graph, all the films are equally divided into four levels based on their rental duration, and each table represents a different type of film. 
 Animation has 22 rent that falls into Duration Level 1, which is the greatest compared to other film types. For Comedy, most of the film's rental duration is in Level 1. Similarly, there are 20 Family films in Duration Level 3. And for children's movies, 18 films are in Level 2.
