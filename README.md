@@ -56,7 +56,7 @@ FROM sub2
 GROUP BY 1,2
 ORDER BY 1,2;
 ~~~~
-<img width="443" alt="image" src="https://user-images.githubusercontent.com/100692852/156180317-5df4bd69-dddb-48c4-87ec-be8b8a8d3f64.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/100692852/156180317-5df4bd69-dddb-48c4-87ec-be8b8a8d3f64.png">
 
 In this graph, all the films are equally divided into four levels based on their rental duration, and each table represents a different type of film. 
 Animation has 22 rent that falls into Duration Level 1, which is the greatest compared to other film types. For Comedy, most of the film's rental duration is in Level 1. Similarly, there are 20 Family films in Duration Level 3. And for children's movies, 18 films are in Level 2.
@@ -83,7 +83,7 @@ GROUP BY 1,2,3
 ORDER BY 4 DESC;
 ~~~~
 
-<img width="411" alt="image" src="https://user-images.githubusercontent.com/100692852/156506372-5b275033-58d0-4de0-9d8b-1c38f7840bb8.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/100692852/156506372-5b275033-58d0-4de0-9d8b-1c38f7840bb8.png">
 
 This graph collected data for the number of films rent-out in different stores per month. The rental count increases slightly from May to June 2005 in both stores and then increases dramatically to around 3200 in July. After the peak, the rent-out number decreased sharply to nearly 100 in February 2006.
 There might be a periodical trend in film rent-out. The rental count reaches the peak in the summer; this is probably because kids are on summer vacation and movie rentals are way up.
@@ -113,8 +113,8 @@ GROUP BY  1,2
 ORDER BY 2,1;
 ~~~~
 
-<img width="606" alt="image" src="https://user-images.githubusercontent.com/100692852/156507327-8bc7f327-1208-4e4d-9e00-eb8f0a7a28b3.png">
-<img width="595" alt="image" src="https://user-images.githubusercontent.com/100692852/156507340-f1f19cd2-3f5a-49f8-ab08-d7dbdb4b3cf2.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/100692852/156507327-8bc7f327-1208-4e4d-9e00-eb8f0a7a28b3.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/100692852/156507340-f1f19cd2-3f5a-49f8-ab08-d7dbdb4b3cf2.png">
 
 
 The two graphs show the payment amount trend and the number of orders per month.
